@@ -30,7 +30,7 @@
     ],
     "bugs": "https://github.com/pascalbajorat/mailcrypt/issues",
     "homepage": "https://www.pascal-bajorat.com",
-    "docs": "https://github.com/pascalbajorat/mailcrypt/wiki",
+    "docs": "https://github.com/pascalbajorat/mailcrypt/wiki/Documentation",
     "download": "https://github.com/pascalbajorat/mailcrypt/zipball/master",
     "dependencies": {
         "jquery": ">=1.5"
