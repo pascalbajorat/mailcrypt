@@ -1,0 +1,33 @@
+{
+    "name": "mailcrypt",
+    "title": "MailCrypt - AntiSpam Email Encryption",
+    "description": "The jQuery MailCrypt Plugin is an easy to use extension to protect the email links on your website against spam bots.",
+    "keywords": [
+        ""
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Pascal Bajorat",
+        "url": "https://www.pascal-bajorat.com"
+    },
+    "maintainers": [
+        {
+            "name": "Pascal Bajorat",
+            "email": "pascal@pascal-bajorat.com",
+            "url": "https://www.pascal-bajorat.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "GPL",
+            "url": "http://www.gnu.org/licenses/gpl.txt"
+        }
+    ],
+    "bugs": "https://github.com/pascalbajorat/mailcrypt/issues",
+    "homepage": "https://www.pascal-bajorat.com",
+    "docs": "https://github.com/pascalbajorat/mailcrypt/wiki",
+    "download": "https://github.com/pascalbajorat/mailcrypt/zipball/master",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
