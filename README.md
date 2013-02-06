@@ -1,22 +1,39 @@
-simplefadeslideshow
-===================
+mailcrypt
+=========
 
-jQuery Simple Fade SlideShow v.2.1.0
+MailCrypt - AntiSpam Email Encryption v.1.0.0
 
-Simple Fade SlideShow is a very simple and easy to use fade-image slideshow. Its structure is very flexible and you can use it for image and / or content transition.
 
-Simple Fade SlideShow is lightweight and fast: Only ~7kb – minified ~3,8kb
+Include this in your HTML head or Footer
+========================================
 
-Simple Fade SlideShow is highly customizable with CSS and it can either create the list and buttons automatically or you can create your own individual elements and Simple Fade SlideShow will only bind the relevant functions.
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/mailcrypt.js"></script>
+
+Start Decrypting Mail-Adresses
+==============================
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('a.mailcrypt').mailcrypt();
+	});
+</script>
+
+Use this structure for your mails:
+==================================
+
+<a href="kontakt.html" class="mailcrypt">info<span><span>∂</span></span>webdesign-podcast.de</a>
+
+You can replace the ∂ sign with an @ image or another sign what ever you want.
 
 Copyright (c) 2013 Pascal Bajorat
 Dual licensed under the MIT and Gnu GPL version 3 licenses.
 
 
 
-## [Main Demo](http://www.simplefadeslideshow.com/)
+## [Main Demo](http://www.webdesign-podcast.de/wp-content/uploads/2011/06/mailcrypt/)
 
-* [Documentation](http://www.simplefadeslideshow.com/documentation/)
-* [Latest demos](http://www.simplefadeslideshow.com/)
-* [Download](https://github.com/pascalbajorat/simplefadeslideshow/zipball/master)
+* [Documentation](https://github.com/pascalbajorat/mailcrypt/wiki)
+* [Latest demos](http://www.webdesign-podcast.de/wp-content/uploads/2011/06/mailcrypt/)
+* [Download](https://github.com/pascalbajorat/mailcrypt/zipball/master)
 * [Author](https://www.pascal-bajorat.com/)
