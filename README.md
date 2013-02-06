@@ -7,22 +7,28 @@ MailCrypt - AntiSpam Email Encryption v.1.0.0
 Include this in your HTML head or Footer
 ========================================
 
+```html
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/mailcrypt.js"></script>
+```
 
 Start Decrypting Mail-Adresses
 ==============================
 
+```html
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('a.mailcrypt').mailcrypt();
 	});
 </script>
+```
 
 Use this structure for your mails:
 ==================================
 
+```html
 <a href="kontakt.html" class="mailcrypt">info<span><span>∂</span></span>webdesign-podcast.de</a>
+```
 
 You can replace the ∂ sign with an @ image or another sign what ever you want.
 
