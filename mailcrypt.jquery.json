@@ -3,7 +3,12 @@
     "title": "MailCrypt - AntiSpam Email Encryption",
     "description": "The jQuery MailCrypt Plugin is an easy to use extension to protect the email links on your website against spam bots.",
     "keywords": [
-        ""
+        "spam",
+        "email",
+        "mail",
+        "security",
+        "form",
+        "input"
     ],
     "version": "1.0.0",
     "author": {
