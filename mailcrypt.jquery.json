@@ -8,9 +8,11 @@
         "mail",
         "security",
         "form",
-        "input"
+        "input",
+        "antispam",
+        "encryption"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": {
         "name": "Pascal Bajorat",
         "url": "https://www.pascal-bajorat.com"
@@ -30,6 +32,7 @@
     ],
     "bugs": "https://github.com/pascalbajorat/mailcrypt/issues",
     "homepage": "https://www.pascal-bajorat.com",
+    "demo": "http://www.webdesign-podcast.de/wp-content/uploads/2011/06/mailcrypt/",
     "docs": "https://github.com/pascalbajorat/mailcrypt/wiki/Documentation",
     "download": "https://github.com/pascalbajorat/mailcrypt/zipball/master",
     "dependencies": {
